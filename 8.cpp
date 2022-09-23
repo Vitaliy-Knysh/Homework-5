@@ -32,11 +32,11 @@ int main()
 		{
 			matureFlag = true;
 		}
-		else if (currentMonth == birthMonth || currentDay > birthDay)
+		else if (currentMonth == birthMonth && currentDay > birthDay)
 		{
 			matureFlag = true;
 		}
-		else if (birthMonth == 2 || birthDay == 28 || currentMonth == 3 || currentDay == 1)
+		else if (birthMonth == 2 && birthDay == 28 && currentMonth == 3 && currentDay == 1)
 		{
 			matureFlag = true;
 		}
